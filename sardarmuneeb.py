@@ -11,7 +11,7 @@ try:
     import mechanize
 except ImportError:
     os.system('pip2 install mechanize')
-    os.system('python2 B4.py')
+    os.system('python2 sardarmuneeb.py')
 
 from requests.exceptions import ConnectionError
 from mechanize import Browser
@@ -67,7 +67,8 @@ logo='''
  ..######.....##....##.....##.##.##.##.######..
  .......##....##....##.....##.##..####.##......
  .##....##....##....##.....##.##...###.##......
- ..######.....##.....#######..##....##.######## 🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
+ ..######.....##.....#######..##....##.######## 
+🄵🄰🄲🄴🄱🄾🄾🄺✬\033[1;91m..............
 
 \033[1;96m░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -183,7 +184,7 @@ def mb():
 	    psb('Congratulations MUNEEB ANSARI Tool Has Been Updated Successfully')
 	    psb('🔓User Name☆ muneeb✓')
 	    psb('🔓Password ☆ ansari✓')
-	    psb('Follow My Facebook Account سردار منیب انصاری✓')
+	    psb('Follow My Facebook Account سردار منیب انصاری ✓')
 	    psb('Please Login Again')
 	    time.sleep(2)
 	    os.system('cd $HOME/MUNEEB_ANSARI && python2 B4.py')
